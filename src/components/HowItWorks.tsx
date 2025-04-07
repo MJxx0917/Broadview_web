@@ -4,7 +4,7 @@ import { MedalIcon, MapIcon, PlaneIcon, GiftIcon, BilateralIcon, WelfareIcon, In
 interface FeatureProps {
   icon: JSX.Element;
   title: string;
-  description: string;
+  description: JSX.Element;
 }
 
 const features: FeatureProps[] = [

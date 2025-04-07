@@ -26,15 +26,15 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.broadview.org.nz",
       },
       {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "https://www.broadview.org.nz",
       },
       {
         name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "https://www.broadview.org.nz",
       },
     ],
   },
@@ -59,7 +59,7 @@ export const Team = () => {
 
       <div className="min-h-screen flex justify-center items-center">
         {teamList.map(
-          ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+          ({ name, position }: TeamProps) => (
             <Card
               key={name}
               className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center w-full max-w-5xl"
