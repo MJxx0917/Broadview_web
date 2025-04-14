@@ -3,13 +3,13 @@
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/leoMirandaa/shadcn-landing-page.git
+git clone https://github.com/MJxx0917/Broadview_web.git
 ```
 
 2. Go into project
 
 ```bash
-cd shadcn-landing-page
+cd Broadview_web
 ```
 
 3. Install dependencies
