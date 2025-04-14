@@ -1,7 +1,7 @@
 import home from "../assets/home.png";
 import pilot from "../assets/logo.png";
 
-export const Hero = () => {
+export const Home = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4">
       <div className="container flex flex-col items-center py-20 md:py-32 gap-10">

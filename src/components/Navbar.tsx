@@ -32,19 +32,19 @@ const routeList: RouteProps[] = [
     label: "About Us",
   },
   {
-    href: "#howitworks",
+    href: "#services",
     label: "Service",
   },
   {
-    href: "#testimonials",
+    href: "#members",
     label: "Members",
   },
   {
-    href: "#features",
+    href: "#news",
     label: "News",
   },
   {
-    href: "#newsletter",
+    href: "#contact",
     label: "Contact Us",
   },
 ];

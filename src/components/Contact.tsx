@@ -1,9 +1,9 @@
 import bc1 from "../assets/bc1.png";
 import bc2 from "../assets/bc2.png";
 
-export const Newsletter = () => {
+export const Contact = () => {
   return (
-    <section id="newsletter">
+    <section id="contact">
       <hr className="w-11/12 mx-auto" />
 
       <div className="container py-24 sm:py-32">

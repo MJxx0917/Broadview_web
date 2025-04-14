@@ -23,3 +23,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+## About the website
+
+1. The website is a foundation website of New Zealand owner.
+
+2. The website has been deployed on https://www.broadview.org.nz

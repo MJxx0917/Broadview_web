@@ -52,7 +52,7 @@ const features: FeatureProps[] = [
       (
        <ul className="list-disc pl-5 space-y-1">
          <p>创始成员介绍</p>
-         <p>Kelly Zhou（周杨</p>
+         <p>Kelly Zhou（周杨)</p>
          <p>作为博泰文化教育基金会的创始成员之一，Kelly Zhou积累了丰富的国际商务、财务管理以及跨文化合作经验，在促进新西兰与中国之间的多领域合作中取得了显著成就。</p>
          <p>商业与财务管理经验</p>
          <li>2009年，创立 NZ Business Solutions Ltd，为新西兰本地企业及中国企业在新西兰的分支机构提供专业的会计、税务及财务管理服务。</li>
@@ -71,10 +71,10 @@ const features: FeatureProps[] = [
   },
 ];
 
-export const Features = () => {
+export const News = () => {
   return (
     <section
-      id="features"
+      id="news"
       className="container py-24 sm:py-32 space-y-8 text-center"
     >
       <h2 className="text-3xl text-center lg:text-4xl font-bold md:text-center">

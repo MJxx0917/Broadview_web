@@ -1,23 +1,23 @@
 import { About } from "./components/About";
-import { Features } from "./components/Features";
-import { Hero } from "./components/Hero";
-import { HowItWorks } from "./components/HowItWorks";
+import { News } from "./components/News";
+import { Home } from "./components/Home";
+import { Services } from "./components/Services";
 import { Navbar } from "./components/Navbar";
-import { Newsletter } from "./components/Newsletter";
+import { Contact } from "./components/Contact";
 import { ScrollToTop } from "./components/ScrollToTop";
-import { Testimonials } from "./components/Testimonials";
+import { Members } from "./components/Members";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Home />
       <About />
-      <HowItWorks />
-      <Testimonials />
-      <Features />
-      <Newsletter />
+      <Services />
+      <Members />
+      <News />
+      <Contact />
       <ScrollToTop />
     </>
   );

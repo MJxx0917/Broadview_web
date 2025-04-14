@@ -6,10 +6,10 @@ import member5 from "../members/Member5.png";
 import member6 from "../members/Member6.png";
 import member7 from "../members/Member7.png";
 
-export const Testimonials = () => {
+export const Members = () => {
   return (
     <section
-      id="testimonials"
+      id="members"
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl text-center md:text-4xl font-bold">

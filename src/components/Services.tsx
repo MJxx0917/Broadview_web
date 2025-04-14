@@ -91,10 +91,10 @@ const features: FeatureProps[] = [
   },
 ];
 
-export const HowItWorks = () => {
+export const Services = () => {
   return (
     <section
-      id="howitworks"
+      id="services"
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
