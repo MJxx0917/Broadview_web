@@ -3,17 +3,18 @@ import {
   CardContent,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 
+import News1 from "../news/News1.png";
+import News2 from "../news/News2.png";
+import News3 from "../news/News3.png";
+
 interface FeatureProps {
-  title: string;
   description: string | JSX.Element;
 }
 
 const features: FeatureProps[] = [
   {
-    title: "News 1",
     description:
     (
       <ul className="list-disc pl-5 space-y-1">
@@ -47,7 +48,6 @@ const features: FeatureProps[] = [
     ),
   },
   {
-    title: "News 2",
     description:
       (
        <ul className="list-disc pl-5 space-y-1">
@@ -69,6 +69,27 @@ const features: FeatureProps[] = [
        </ul>
       ),
   },
+  {
+    description:(
+      <div>
+       <p>会员单位介绍</p>
+       <p>蓝德国际是拥有第一批新西兰政府持牌顾问的新西兰移民和教育咨询公司。凭借资深顾问20余年的移民和教育咨询服务经验，为客户提供新西兰各类签证服务，包括商业移民、技术移民、工作签证、旅游签证、学生签证、家庭团聚、工作定居、文艺体育演出赛事、团体签证、移民上诉等等，迄今已办理和积累了大量的成功案例，成为新西兰顶尖的知名移民咨询服务机构之一。蓝德国际还拥有一支经验丰富的国际教育咨询服务团队，能够准确地向客户解读移民和国际教育政策的变化、预测行业的走向、为客户量身定做学习、工作、移民的长期计划，并提供及时的咨询和落地服务。</p>
+      </div>
+    ),
+  },
+  {
+    description:(
+      <div>
+       <p>2025年4月21日，由Broadview Cultural and Education Foundation Incorporated大力支持与积极参与的“以球会友、增进友谊”中-新气排球交流活动在拱墅区体育中心圆满举办。本次活动特别邀请了来自新西兰的万方男子队与女子队共12名运动员，在完成海宁国际气排球邀请赛后前来杭州参加交流比赛。 很荣幸能够促成此次跨国体育文化交流盛会。赛场上，来自中新两国的运动员们全情投入、配合默契，从发球、接球、扣杀到拦网，每一个回合都扣人心弦、精彩纷呈。他们精湛的球技赢得现场观众阵阵掌声与喝彩，展现出体育交流所独有的活力与激情。此次交流不仅是一场体育竞技，更是一次文化融合的盛会。体育是连接世界的桥梁，是加深彼此理解、促进民间友好往来的重要方式。作为一个致力于推动国际文化教育交流的机构，Broadview基金会将持续支持此类有意义的跨国合作项目，搭建更多元、开放、互信的国际交流平台。整场活动在和谐、热烈的氛围中落下帷幕，衷心感谢拱墅区气排球协会的支持与协作，以及所有参赛队员和现场观众的积极参与。通过这场活动以球会友，以心连心，继续携手前行。</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-4">
+        <img src={News1} alt="气排球活动图1" className="rounded-lg object-cover w-full h-[250px]" />
+        <img src={News3} alt="气排球活动图2" className="rounded-lg object-cover w-full h-[250px]" />
+        <img src={News2} alt="气排球活动图3" className="rounded-lg object-cover w-full h-[250px]" />
+      </div>
+
+      </div>
+    ),
+  },
 ];
 
 export const News = () => {
@@ -86,10 +107,9 @@ export const News = () => {
 
 
       <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-8 justify-center">
-        {features.map(({ title, description }: FeatureProps) => (
-          <Card key={title}>
+        {features.map(({ description }: FeatureProps) => (
+          <Card>
             <CardHeader>
-              <CardTitle>{title}</CardTitle>
             </CardHeader>
 
             <CardContent className="text-left pb-2" style={{ textAlign: "justify" }}>{description}</CardContent>

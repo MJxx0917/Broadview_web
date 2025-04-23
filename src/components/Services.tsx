@@ -108,7 +108,7 @@ export const Services = () => {
       Explore how our foundation works
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         {features.map(({ icon, title, description }: FeatureProps) => (
           <Card
             key={title}
@@ -120,7 +120,7 @@ export const Services = () => {
                 {title}
               </CardTitle>
             </CardHeader>
-            <CardContent className="text-left">{description}</CardContent>
+            <CardContent style={{ textAlign: "justify" }}>{description}</CardContent>
           </Card>
         ))}
       </div>
